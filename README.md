@@ -28,7 +28,8 @@
 
     
 ## Live
-https://stats-cards-design.vercel.app/
+👉 [Live Version Link](https://stats-cards-design.vercel.app/)
+
 
   
 ## App Gif
