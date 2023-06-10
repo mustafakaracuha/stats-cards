@@ -31,7 +31,7 @@
 https://stats-cards-design.vercel.app/
 
   
-### Screenshot
+### App Gif
 
 <img align="center" width="900" width="900" src="https://github.com/mustafakaracuha/stats-cards/blob/main/src/assets/app.gif" />
 
