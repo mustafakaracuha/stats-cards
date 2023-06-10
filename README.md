@@ -32,6 +32,6 @@ https://react-search-motion.vercel.app/
   
 ### Screenshot
 
-<img align="center" width="900" width="900" src="https://github.com/mustafakaracuha/react-search/blob/main/src/assests/app.gif" />
+<img align="center" width="900" width="900" src="https://github.com/mustafakaracuha/stats-cards/blob/main/src/assets/app.gif" />
 
   
