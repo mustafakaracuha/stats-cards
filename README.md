@@ -7,6 +7,7 @@
 - Framer Motion
 - Tailwind CSS
 - React Icons
+- Material UI
 
   
 ## Installation 
