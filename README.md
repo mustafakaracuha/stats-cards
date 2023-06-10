@@ -13,7 +13,7 @@
 ## Installation 
 
 ```bash 
-    git clone https://github.com/mustafakaracuha/stats-cards
+    git clone https://github.com/mustafakaracuha/stats-cards.git
 ```
 ```bash 
     cd stats-cards
