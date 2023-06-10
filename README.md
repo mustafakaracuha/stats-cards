@@ -1,7 +1,7 @@
 # Stats Cards 
 
 
-## Technologies and Libraries
+## 👨🏻‍💻 Technologies and Libraries
 
 - React Js
 - Framer Motion
@@ -10,7 +10,7 @@
 - Material UI
 
   
-## Installation 
+## ⚙️ Installation 
 
 ```bash 
     git clone https://github.com/mustafakaracuha/stats-cards.git
@@ -27,11 +27,11 @@
 
 
     
-## Live
+## 🌏 Live
 https://stats-cards-design.vercel.app/
 
   
-## App Gif
+## 🎨 App Gif
 
 <img align="center" width="900" width="900" src="https://github.com/mustafakaracuha/stats-cards/blob/main/src/assets/app.gif" />
 
