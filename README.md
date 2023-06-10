@@ -28,7 +28,7 @@
 
     
 ## Live
-👉 [Live Version Link](https://stats-cards-design.vercel.app/)
+👉 [Stats card design](https://stats-cards-design.vercel.app/)
 
 
   

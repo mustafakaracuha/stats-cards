@@ -98,7 +98,7 @@ export default function card() {
       <motion.button
         animate={{
           opacity: [0, 1],
-          y: [350, 0],
+          y: [50, 0],
           transition: { duration: 0.5, delay: 1.2 },
         }}
         className="w-[342px] h-[61px] bg-[#294266] rounded-[10px] text-[18px] text-white mt-8"
