@@ -7,7 +7,7 @@ export default function card() {
       animate={{
         opacity: [0, 1],
         x: [300, 0],
-        transition: { duration: 0.5, delay: 0.7, type:"spring", stiffness: 100
+        transition: { duration: 0.5, delay: 0.7
          },
       }}
       className="w-[342px] h-[405px] rounded-[20px] bg-white absolute text-center -right-4 top-40 shadow-2xl shadow-[#163F78] flex-col items-start justify-center p-12"
@@ -17,7 +17,7 @@ export default function card() {
           animate={{
             opacity: [0, 1],
             y: [50, 0],
-            transition: { duration: 0.5, delay: 0.9, type:"spring", stiffness: 50 },
+            transition: { duration: 0.5, delay: 0.9, },
           }}
           className="w-[128px] h-[128px] bg-white rounded-full border-[10px] border-[#D8E6FA] flex items-center justify-center bg-cover overflow-hidden"
         >
@@ -25,7 +25,7 @@ export default function card() {
             animate={{
               opacity: [0, 1],
               scale: [2, 1],
-              transition: { duration: 0.5, delay: 1.8,type:"spring", stiffness: 50  },
+              transition: { duration: 0.5, delay: 1.8  },
             }}
             src={profile}
             className="scale-125"
@@ -34,7 +34,7 @@ export default function card() {
             animate={{
               opacity: [0, 1],
               scale: [2, 1],
-              transition: { duration: 0.5, delay: 2,type:"spring", stiffness: 50 },
+              transition: { duration: 0.5, delay: 2 },
             }}
             className="w-[50px] h-[32px] bg-[#294266] flex items-center justify-center rounded-[20px] absolute top-24 mt-2 text-white"
           >
@@ -46,7 +46,7 @@ export default function card() {
         animate={{
           opacity: [0, 1],
           y: [50, 0],
-          transition: { duration: 0.5, delay: 1.2,type:"spring", stiffness: 50 },
+          transition: { duration: 0.5, delay: 1.2 },
         }}
         className="text-center text-[22px] text-[#456392] mt-5"
       >
@@ -56,7 +56,7 @@ export default function card() {
         animate={{
           opacity: [0, 1],
           y: [50, 0],
-          transition: { duration: 0.5, delay: 1.4,type:"spring", stiffness: 50 },
+          transition: { duration: 0.5, delay: 1.4 },
         }}
         className="text-center text-[16px] font-light text-[#456392] mt-3 cursor-pointer"
         target="_blank"
@@ -68,7 +68,7 @@ export default function card() {
         animate={{
           opacity: [0, 1],
           y: [50, 0],
-          transition: { duration: 0.5, delay: 1.6,type:"spring", stiffness: 50 },
+          transition: { duration: 0.5, delay: 1.6 },
         }}
         className="text-center text-[16px] mt-20"
       >

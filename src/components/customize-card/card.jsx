@@ -9,9 +9,7 @@ export default function card() {
       animate={{
         opacity: [0, 1],
         x: [-300, 0],
-        transition: { duration: 0.5, delay: 0.5,
-        type: "spring",
-        stiffness: 100},
+        transition: { duration: 0.5, delay: 0.5},
       }}
       className="w-[422px] h-[407px] rounded-[20px] bg-white absolute -left-12 top-14 shadow-2xl shadow-[#163F78] p-10"
     >
@@ -19,7 +17,7 @@ export default function card() {
         animate={{
           opacity: [0, 1],
           y: [200, 0],
-          transition: { duration: 0.5, delay: 0.7,type: "spring", stiffness: 50 },
+          transition: { duration: 0.5, delay: 0.7},
         }}
         className="flex items-center"
       >
@@ -28,7 +26,7 @@ export default function card() {
             animate={{
               opacity: [0, 1],
               scale: [1.5, 1],
-              transition: { duration: 0.5, delay: 1.3,type: "spring", stiffness: 50 },
+              transition: { duration: 0.5, delay: 1.3},
             }}
             src={store}
           />
@@ -38,7 +36,7 @@ export default function card() {
             animate={{
               opacity: [0, 1],
               x: [100, 0],
-              transition: { duration: 0.5, delay: 1.7,type: "spring", stiffness: 50 },
+              transition: { duration: 0.5, delay: 1.7},
             }}
             className="text-[16px] text-[#456392] "
           >
@@ -48,7 +46,7 @@ export default function card() {
             animate={{
               opacity: [0, 1],
               y: [50, 0],
-              transition: { duration: 0.5, delay: 1.9,type: "spring", stiffness: 50 },
+              transition: { duration: 0.5, delay: 1.9},
             }}
             className="font-bold text-[28px] text-[#456392] "
           >
@@ -60,7 +58,7 @@ export default function card() {
         animate={{
           opacity: [0, 1],
           y: [300, 0],
-          transition: { duration: 0.5, delay: 0.9,type: "spring", stiffness: 50 },
+          transition: { duration: 0.5, delay: 0.9},
         }}
         className="flex items-center mt-10"
       >
@@ -69,7 +67,7 @@ export default function card() {
             animate={{
               opacity: [0, 1],
               scale: [1.5, 1],
-              transition: { duration: 0.5, delay: 1.5,type: "spring", stiffness: 50 },
+              transition: { duration: 0.5, delay: 1.5},
             }}
             src={warning}
           />
@@ -101,7 +99,7 @@ export default function card() {
         animate={{
           opacity: [0, 1],
           y: [50, 0],
-          transition: { duration: 0.5, delay: 1.2,type: "spring", stiffness: 50 },
+          transition: { duration: 0.5, delay: 1.2},
         }}
         className="w-[342px] h-[61px] bg-[#294266] rounded-[10px] text-[18px] text-white mt-8"
       >
