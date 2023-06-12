@@ -24,7 +24,7 @@ export default function card() {
         <motion.span
           animate={{
             opacity: [0, 1],
-            y: [40, 0],
+            y: [50, 0],
             transition: { duration: 0.5, delay: 1.2 },
           }}
         >
@@ -33,7 +33,7 @@ export default function card() {
         <motion.p
           animate={{
             opacity: [0, 1],
-            y: [40, 0],
+            y: [50, 0],
             transition: { duration: 0.5, delay: 1.4 },
           }}
           className="font-bold text-[28px] text-[#456392] ml-4"
@@ -44,7 +44,7 @@ export default function card() {
       <motion.span
         animate={{
           opacity: [0, 1],
-          y: [40, 0],
+          y: [50, 0],
           transition: { duration: 0.5, delay: 1.6 },
         }}
       >
