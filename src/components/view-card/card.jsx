@@ -16,7 +16,7 @@ export default function card() {
       animate={{
         opacity: [0, 1],
         y: [200, 0],
-        transition: { duration: 0.5, delay: 1 },
+        transition: { duration: 0.5, delay: 1,type:"spring", stiffness: 100 },
       }}
       className="w-[548px] h-[149px] rounded-[20px] bg-white absolute -left-44 bottom-14 shadow-2xl shadow-[#163F78] flex items-center justify-between pl-10 pr-7"
     >
@@ -25,7 +25,7 @@ export default function card() {
           animate={{
             opacity: [0, 1],
             y: [50, 0],
-            transition: { duration: 0.5, delay: 1.2 },
+            transition: { duration: 0.5, delay: 1.2,type:"spring", stiffness: 50 },
           }}
         >
           <HiEye size={50} className="text-[#2C3E50]" />
@@ -34,7 +34,7 @@ export default function card() {
           animate={{
             opacity: [0, 1],
             y: [50, 0],
-            transition: { duration: 0.5, delay: 1.4 },
+            transition: { duration: 0.5, delay: 1.4,type:"spring", stiffness: 50 },
           }}
           className="font-bold text-[28px] text-[#456392] ml-4"
         >
@@ -45,7 +45,7 @@ export default function card() {
         animate={{
           opacity: [0, 1],
           y: [50, 0],
-          transition: { duration: 0.5, delay: 1.6 },
+          transition: { duration: 0.5, delay: 1.6,type:"spring", stiffness: 50 },
         }}
       >
         <AvatarGroup max={4}>
