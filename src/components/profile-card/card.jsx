@@ -11,15 +11,15 @@ export default function card() {
       }}
       className="w-[342px] h-[405px] rounded-[20px] bg-white absolute text-center -right-4 top-40 shadow-2xl shadow-[#163F78] flex-col items-start justify-center p-12"
     >
-      <div className="relative flex items-center justify-center">
-        <motion.div
-          animate={{
-            opacity: [0, 1],
-            y: [50, 0],
-            transition: { duration: 0.5, delay: 0.9 },
-          }}
-          className="w-[128px] h-[128px] bg-white rounded-full border-[10px] border-[#D8E6FA] flex items-center justify-center bg-cover overflow-hidden"
-        >
+      <motion.div
+        animate={{
+          opacity: [0, 1],
+          y: [50, 0],
+          transition: { duration: 0.5, delay: 0.9 },
+        }}
+        className="relative flex items-center justify-center"
+      >
+        <div className="w-[128px] h-[128px] bg-white rounded-full border-[10px] border-[#D8E6FA] flex items-center justify-center bg-cover overflow-hidden">
           <motion.img
             animate={{
               opacity: [0, 1],
@@ -39,8 +39,8 @@ export default function card() {
           >
             PRO
           </motion.span>
-        </motion.div>
-      </div>
+        </div>
+      </motion.div>
       <motion.p
         animate={{
           opacity: [0, 1],
