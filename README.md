@@ -28,7 +28,7 @@
 
     
 ## 🌏 Live
-https://stats-cards-design.vercel.app/
+https://stats-cards-component.vercel.app/
 
   
 ## 🎨 App Gif
