@@ -71,7 +71,7 @@ export default function card() {
         }}
         className="text-center text-[16px] mt-20"
       >
-        7.5 K followers ・500+ following
+        7.5 K followers ・ 500+ following
       </motion.p>
     </motion.div>
   );
